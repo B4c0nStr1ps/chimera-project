@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bsstl/base.hpp>
 
 auto main(int argc, char* argv[]) -> int
 {
