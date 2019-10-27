@@ -1,4 +1,4 @@
-add_library(bsstl src/utilities.cpp)
+add_library(bsstl src/utilities.cpp  include/bsstl/assertion.hpp include/bsstl/dynamic_array.hpp include/bsstl/types.hpp)
 
 target_include_directories(bsstl
     PUBLIC 
